@@ -1,4 +1,6 @@
+# usage:
 # sudo pip install mosspy
+# python mossify.py
 import mosspy
 import os
 
