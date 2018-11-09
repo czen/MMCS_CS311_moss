@@ -10,3 +10,13 @@ DescentParser: http://moss.stanford.edu/results/476881492
 Visitors: http://moss.stanford.edu/results/420556980
 Lexer: http://moss.stanford.edu/results/976507045
 SimpleLexer: http://moss.stanford.edu/results/13137530
+
+09_11_18
+Lexer: http://moss.stanford.edu/results/479407049
+SimpleLexer: http://moss.stanford.edu/results/613733172
+GeneratedLexer: http://moss.stanford.edu/results/833912046
+DescentParser: http://moss.stanford.edu/results/599484564
+GeneratedParser: http://moss.stanford.edu/results/770696613
+ASTParser: http://moss.stanford.edu/results/972087329
+Visitors: http://moss.stanford.edu/results/834728229
+CodeGenerator: http://moss.stanford.edu/results/150438546
