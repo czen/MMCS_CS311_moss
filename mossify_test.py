@@ -114,19 +114,19 @@ def checkProgram(programName):
     submissionPaths = os.listdir(baseDirPath)
 
     for submissionPath in submissionPaths:
-        for tagetFilePath in targetFilePaths:
+        for targetFilePath in targetFilePaths:
             newFile = baseDirPath + submissionPath + "/" + targetFilePath
             print("file added:", newFile)
             m.addFile(newFile)
         
        
-    # exit()
+    # exit() 
 
     # m.addFilesByWildcard("submission/a01-*.py")
 
     url = m.send() # Submission Report URL
-
-    
+     
+      
     print ("Report Url: " + url)
     os.system("echo " + programName + ": " + url + " >> moss_history.txt")
     
@@ -139,5 +139,5 @@ def checkProgram(programName):
     mosspy.download_report(url, reportPath+programName+"/report"+timestamp+"/", connections=8)
     
 if __name__ == "__main__":
-    # checkProgram("CodeGenerator")
-    checkAllPrograms()
+    checkProgram("CodeGenerator")
+    #checkAllPrograms()     

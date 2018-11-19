@@ -20,3 +20,14 @@ GeneratedParser: http://moss.stanford.edu/results/770696613
 ASTParser: http://moss.stanford.edu/results/972087329
 Visitors: http://moss.stanford.edu/results/834728229
 CodeGenerator: http://moss.stanford.edu/results/150438546
+
+
+19_11_18
+Lexer: http://moss.stanford.edu/results/599062486
+SimpleLexer: http://moss.stanford.edu/results/651743875
+GeneratedLexer: http://moss.stanford.edu/results/192797151
+DescentParser: http://moss.stanford.edu/results/999053445
+GeneratedParser: http://moss.stanford.edu/results/870032220
+ASTParser: http://moss.stanford.edu/results/475292784
+Visitors: http://moss.stanford.edu/results/426431622
+CodeGenerator: http://moss.stanford.edu/results/449950185
