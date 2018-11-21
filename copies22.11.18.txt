@@ -1,0 +1,13 @@
+copied:  /projects/submissions/mmcs-cs311-assignments-MGritsenko/Module6/SimpleYacc.y | /projects/submissions/mmcs-cs311-assignments-olgio/Module6/SimpleYacc.y
+copied:  /projects/submissions/mmcs-cs311-assignments-MGritsenko/Module6/SimpleYacc.y | /projects/submissions/mmcs-cs311-assignments-paradox-14/Module6/SimpleYacc.y
+copied:  /projects/submissions/mmcs-cs311-assignments-olgio/Module6/SimpleYacc.y | /projects/submissions/mmcs-cs311-assignments-paradox-14/Module6/SimpleYacc.y
+copied:  /projects/submissions/mmcs-cs311-assignments-olgio/Module6/ProgramTree.cs | /projects/submissions/mmcs-cs311-assignments-paradox-14/Module6/ProgramTree.cs
+
+copied:  /projects/submissions/mmcs-cs311-assignments-TheTapog/Module8/ProgramTree.cs | /projects/submissions/mmcs-cs311-assignments-belovanas/Module8/ProgramTree.cs
+
+copied:  /projects/submissions/mmcs-cs311-assignments-AnastasiaKorch/Module5/SimpleLex.lex | /projects/submissions/mmcs-cs311-assignments-Lenstrok/Module5/SimpleLex.lex
+copied:  /projects/submissions/mmcs-cs311-assignments-AnastasiaKorch/Module5/SimpleYacc.y | /projects/submissions/mmcs-cs311-assignments-Lenstrok/Module5/SimpleYacc.y
+
+copied:  /projects/submissions/mmcs-cs311-assignments-AnastasiaKorch/Module7/ProgramTree.cs | /projects/submissions/mmcs-cs311-assignments-Lenstrok/Module7/ProgramTree.cs
+
+copied:  /projects/submissions/mmcs-cs311-assignments-Natess/Module2/SimpleLangLexer/SimpleLexer.cs | /projects/submissions/mmcs-cs311-assignments-mrRomanovsky/Module2/SimpleLangLexer/SimpleLexer.cs

@@ -31,3 +31,9 @@ GeneratedParser: http://moss.stanford.edu/results/870032220
 ASTParser: http://moss.stanford.edu/results/475292784
 Visitors: http://moss.stanford.edu/results/426431622
 CodeGenerator: http://moss.stanford.edu/results/449950185
+
+21.11.18
+ASTParser: http://moss.stanford.edu/results/704334222
+GeneratedParser: http://moss.stanford.edu/results/621451323
+
+
