@@ -14,10 +14,12 @@ def get_hash(fileName):
             hash_md5.update(chunk)
     return hash_md5.hexdigest()
    
-userid = 448215352
+#userid = 448215352
+userid = 622907353
 
 m = mosspy.Moss(userid, "csharp")
-m.setDirectoryMode(1)
+# m.setDirectoryMode(1)
+m.setExperimentalServer(1)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--hash", help="only quickly compare by hash", action = "store_true")
@@ -214,6 +216,6 @@ if __name__ == "__main__":
     if (args.moss):
         if (args.all):
             checkAllPrograms()
-        else:
+        else:   
             checkProgram(args.task)
    

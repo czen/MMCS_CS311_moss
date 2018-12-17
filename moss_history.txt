@@ -36,4 +36,21 @@ CodeGenerator: http://moss.stanford.edu/results/449950185
 ASTParser: http://moss.stanford.edu/results/704334222
 GeneratedParser: http://moss.stanford.edu/results/621451323
 
+22.11.18
+GeneratedParser: http://moss.stanford.edu/results/696552799
+CodeGenerator: http://moss.stanford.edu/results/497381104
+  
+24.11.18
+CodeGenerator: http://moss.stanford.edu/results/236093632
+ASTParser: http://moss.stanford.edu/results/275103152
+Visitors: http://moss.stanford.edu/results/994713683
 
+13.12.18
+CodeGenerator: http://moss.stanford.edu/results/166726251
+Visitors: http://moss.stanford.edu/results/65870719
+ASTParser: http://moss.stanford.edu/results/347590770
+GeneratedParser: http://moss.stanford.edu/results/704413256
+DescentParser: http://moss.stanford.edu/results/469342541
+GeneratedLexer: http://moss.stanford.edu/results/521613762
+SimpleLexer: http://moss.stanford.edu/results/348364394
+Lexer: http://moss.stanford.edu/results/35917396
