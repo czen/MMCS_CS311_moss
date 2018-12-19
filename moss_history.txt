@@ -54,3 +54,18 @@ DescentParser: http://moss.stanford.edu/results/469342541
 GeneratedLexer: http://moss.stanford.edu/results/521613762
 SimpleLexer: http://moss.stanford.edu/results/348364394
 Lexer: http://moss.stanford.edu/results/35917396
+
+17.12.18
+SimpleLexer: http://moss.stanford.edu/results/419967239
+GeneratedLexer: http://moss.stanford.edu/results/546697662
+DescentParser: http://moss.stanford.edu/results/131333925
+GeneratedParser: http://moss.stanford.edu/results/657699117
+ASTParser: http://moss.stanford.edu/results/21623848
+Visitors: http://moss.stanford.edu/results/787046587
+
+19.12.18
+DescentParser: http://moss.stanford.edu/results/537540455
+GeneratedParser: http://moss.stanford.edu/results/10492827
+ASTParser: http://moss.stanford.edu/results/874836123
+Visitors: http://moss.stanford.edu/results/828186787
+CodeGenerator: http://moss.stanford.edu/results/554062435
