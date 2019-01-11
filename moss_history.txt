@@ -69,3 +69,36 @@ GeneratedParser: http://moss.stanford.edu/results/10492827
 ASTParser: http://moss.stanford.edu/results/874836123
 Visitors: http://moss.stanford.edu/results/828186787
 CodeGenerator: http://moss.stanford.edu/results/554062435
+
+20.12.18
+DescentParser: http://moss.stanford.edu/results/467953157
+GeneratedParser: http://moss.stanford.edu/results/442741510
+ASTParser: http://moss.stanford.edu/results/213706891
+Visitors: http://moss.stanford.edu/results/543549045
+CodeGenerator: http://moss.stanford.edu/results/720672195
+
+22.12.18
+DescentParser: http://moss.stanford.edu/results/136850718
+GeneratedParser: http://moss.stanford.edu/results/684905525
+ASTParser: http://moss.stanford.edu/results/952782188
+Visitors: http://moss.stanford.edu/results/18688267
+CodeGenerator: http://moss.stanford.edu/results/542507679
+
+25.12.18
+SimpleLexer: http://moss.stanford.edu/results/808769460
+GeneratedLexer: http://moss.stanford.edu/results/760296089
+DescentParser: http://moss.stanford.edu/results/196855988
+GeneratedParser: http://moss.stanford.edu/results/783770536
+ASTParser: http://moss.stanford.edu/results/703883344
+Visitors: http://moss.stanford.edu/results/480056399
+CodeGenerator: http://moss.stanford.edu/results/127031763
+
+11.01.18
+Lexer: http://moss.stanford.edu/results/524374132
+SimpleLexer: http://moss.stanford.edu/results/991211165
+GeneratedLexer: http://moss.stanford.edu/results/906345321
+DescentParser: http://moss.stanford.edu/results/688391940
+GeneratedParser: http://moss.stanford.edu/results/550678012
+ASTParser: http://moss.stanford.edu/results/369217283
+Visitors: http://moss.stanford.edu/results/376486751
+CodeGenerator: http://moss.stanford.edu/results/563084094
