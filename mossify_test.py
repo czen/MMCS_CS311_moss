@@ -3,6 +3,7 @@
 # python mossify.py
 import mosspy
 import os
+import os.path
 import time
 import argparse
 import hashlib
@@ -136,9 +137,12 @@ paths = [
         "Module8/Visitors/GenCodeVisitors/GenCodeVisitor.cs"
     ]
 
-baseProjectPath = "/projects/compilers/"
-baseDirPath = "/projects/submissions/"
-reportPath = "/projects/reports/"
+#baseProjectPath = "/projects/compilers/"
+#baseDirPath = "/projects/submissions/"
+#reportPath = "/projects/reports/"
+baseProjectPath = "/root/MMCS_CS311/"
+baseDirPath = "/cs311/submissions/"
+reportPath = "/cs311/reports/"
 timestamp = time.strftime("%d_%m_%y", time.localtime())
 
 def checkAllPrograms():
@@ -159,8 +163,11 @@ def checkProgram(programName):
     for submissionPath in submissionPaths:
         for targetFilePath in targetFilePaths:
             newFile = baseDirPath + submissionPath + "/" + targetFilePath
-            print("file added:", newFile)
-            m.addFile(newFile)
+            if os.path.isfile(newFile):
+                print("file added:", newFile)
+                m.addFile(newFile)
+            else:
+                print("file missing:", newFile)
         
        
     # exit() 
@@ -196,15 +203,16 @@ def checkProgramByHash(programName):
     for submissionPath in submissionPaths:
         for targetFilePath in targetFilePaths:
             newFile = baseDirPath + submissionPath + "/" + targetFilePath
-            hash = get_hash(newFile)
-            isBase = True
-            if not baseFiles[targetFilePath] == hash:
-                isBase = False
-            if not isBase:
-                for f in files:
-                    if f[1] == hash:
-                        print 'copied: ', f[0], '|', newFile;
-                files.append((newFile, hash))
+            if os.path.isfile(newFile):   
+                hash = get_hash(newFile)
+                isBase = True
+                if not baseFiles[targetFilePath] == hash:
+                   isBase = False
+                if not isBase:
+                    for f in files:
+                        if f[1] == hash:
+                            print 'copied: ', f[0], '|', newFile;
+                    files.append((newFile, hash))
     
 if __name__ == "__main__":
     if (args.hash):
