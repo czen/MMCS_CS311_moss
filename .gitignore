@@ -1,2 +1,5 @@
 keys
 .python-gitlab.cfg
+venv
+.idea
+__pycache__
