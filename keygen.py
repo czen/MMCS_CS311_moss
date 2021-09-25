@@ -1,10 +1,12 @@
-from os import chmod, mkdir
+from os import chmod, mkdir, path
 from cryptography.hazmat.primitives import serialization as crypto_serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.hazmat.backends import default_backend as crypto_default_backend
 
 
 def make_key(login):
+    if path.exists("./keys/{}/private.key".format(login)):
+        return
     key = rsa.generate_private_key(
         backend=crypto_default_backend(),
         public_exponent=65537,
