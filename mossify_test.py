@@ -7,6 +7,7 @@ import os.path
 import time
 import argparse
 import hashlib
+import pathlib
 
 def get_hash(fileName):
     hash_md5 = hashlib.md5()
@@ -140,9 +141,14 @@ paths = [
 #baseProjectPath = "/projects/compilers/"
 #baseDirPath = "/projects/submissions/"
 #reportPath = "/projects/reports/"
-baseProjectPath = "/root/MMCS_CS311/"
-baseDirPath = "/cs311/submissions/"
-reportPath = "/cs311/reports/"
+
+baseProjectPath = "/home/czen/work/Compilers/compilers/"
+baseDirPath = "/home/czen/work/Compilers/repos/submissions/"
+reportPath = "/home/czen/work/Compilers/reports/"
+
+#baseProjectPath = "/root/MMCS_CS311/"
+#baseDirPath = "/cs311/submissions/"
+#reportPath = "/cs311/reports/"
 timestamp = time.strftime("%d_%m_%y", time.localtime())
 
 def checkAllPrograms():
@@ -181,7 +187,8 @@ def checkProgram(programName):
     os.system("echo " + programName + ": " + url + " >> moss_history.txt")
     
 
-    os.mkdir(reportPath+programName+"/report"+timestamp)
+    pathlib.Path(reportPath+programName+"/report"+timestamp).mkdir(parents=True, exist_ok=True)
+    #os.mkdir(reportPath+programName+"/report"+timestamp)
     # Save report file
     m.saveWebPage(url, reportPath+programName+"/report"+timestamp+"/report.html")
 
@@ -211,7 +218,7 @@ def checkProgramByHash(programName):
                 if not isBase:
                     for f in files:
                         if f[1] == hash:
-                            print 'copied: ', f[0], '|', newFile;
+                            print('copied: ', f[0], '|', newFile)
                     files.append((newFile, hash))
     
 if __name__ == "__main__":

@@ -190,3 +190,22 @@ GeneratedParser: http://moss.stanford.edu/results/587417688
 ASTParser: http://moss.stanford.edu/results/427449408
 Visitors: http://moss.stanford.edu/results/190061204
 CodeGenerator: http://moss.stanford.edu/results/790255348
+Lexer: http://moss.stanford.edu/results/1/2106125429655
+Lexer: http://moss.stanford.edu/results/5/1642636906273
+Lexer: http://moss.stanford.edu/results/3/4934981293949
+SimpleLexer: http://moss.stanford.edu/results/1/126092639725
+Lexer: http://moss.stanford.edu/results/5/3787335074480
+03_12_21
+Lexer: http://moss.stanford.edu/results/4/591396987821
+03_12_21
+Lexer: http://moss.stanford.edu/results/5/9078045227538
+SimpleLexer: http://moss.stanford.edu/results/5/6674632337849
+GeneratedLexer: http://moss.stanford.edu/results/9/8662155616070
+03_12_21
+Lexer: http://moss.stanford.edu/results/9/7193999496261
+SimpleLexer: http://moss.stanford.edu/results/3/4878055174808
+GeneratedLexer: http://moss.stanford.edu/results/1/464963129229
+DescentParser: http://moss.stanford.edu/results/4/9293251820813
+GeneratedParser: http://moss.stanford.edu/results/3/2992524039904
+ASTParser: http://moss.stanford.edu/results/7/7061881963546
+Visitors: http://moss.stanford.edu/results/1/1475846963907

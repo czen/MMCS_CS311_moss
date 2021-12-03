@@ -1,3 +1,4 @@
 python-gitlab
 cryptography >= 1.4.0
 GitPython
+mosspy

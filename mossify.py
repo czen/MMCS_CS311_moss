@@ -51,8 +51,11 @@ targetFilePaths = [
     ]
 
 
-baseProjectPath = "/projects/compilers/"
-baseDirPath = "/projects/submissions/"
+#baseProjectPath = "/projects/compilers/"
+#baseDirPath = "/projects/submissions/"
+
+baseProjectPath = "/home/czen/work/Compilers/compilers/"
+baseDirPath = "/home/czen/work/Compilers/repos/submissions/"
 
 for targetFilePath in targetFilePaths:
     newBaseFile = baseProjectPath + targetFilePath
